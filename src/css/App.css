@@ -21,8 +21,8 @@ div.app header {
 }
 
 div.app main {
-  -ms-flex-preferred-size: 150vh;
-      flex-basis: 150vh;
+  -ms-flex-preferred-size: 200vh;
+      flex-basis: 200vh;
 }
 
 div.app footer {
