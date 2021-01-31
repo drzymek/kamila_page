@@ -1,0 +1,22 @@
+div.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(253, 253, 253);
+
+    header {
+        flex-basis: 20vh;
+        background-color: blue;
+    }
+
+    main {
+        flex-basis: 70vh;
+        background-color: aqua;
+    }
+
+    footer {
+        flex-basis: 10vh;
+        background-color: lightblue;
+    }
+}
