@@ -1,8 +1,8 @@
-header.logo {
+.logo {
   width: 20%;
 }
 
-header.logo img {
+.logo img {
   width: 50%;
   margin-left: 45%;
 }
