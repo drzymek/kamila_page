@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import '../css/App.css';
-import Navigation from './Navigation';
+import Header from './Header';
 import Hero from './Hero';
 import Page from './Page';
 import Footer from './Footer';
@@ -11,9 +11,9 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="app">
           <header>
-            {<Navigation />}
+            {<Header />}
           </header>
           <main>
             <section className="hero">
