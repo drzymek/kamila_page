@@ -12,6 +12,10 @@ div.app {
 }
 
 div.app header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
   -ms-flex-preferred-size: 20vh;
       flex-basis: 20vh;
 }

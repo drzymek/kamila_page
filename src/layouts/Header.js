@@ -1,15 +1,17 @@
 import React from 'react';
 import Navigation from './Navigation';
-import '../css/Navigation.css';
+import '../css/Header.css';
+import logo from '../img/newLogo.png';
 
 
 const Header = () => {
     return (
-        <div>
+        <>
             <span className="logo">
+                <img src={logo} alt="circle of life logo"></img>
             </span>
             {<Navigation />}
-        </div>
+        </>
     );
 }
 

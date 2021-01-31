@@ -6,6 +6,8 @@ div.app {
     background-color: rgb(253, 253, 253);
 
     header {
+        display: flex;
+        width: 100%;
         flex-basis: 20vh;
     }
 
