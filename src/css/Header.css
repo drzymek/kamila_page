@@ -1,9 +1,14 @@
-.logo {
-  width: 20%;
+header {
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.3);
 }
 
-.logo img {
-  width: 50%;
-  margin-left: 45%;
+header .logo {
+  width: 260px;
+  margin-left: 10%;
+}
+
+header .logo img {
+  width: 68%;
+  margin-top: 4%;
 }
 /*# sourceMappingURL=Header.css.map */
