@@ -15,10 +15,10 @@ class App extends Component {
         <header>
           {<Header />}
         </header>
+        <section className="hero">
+          {<Hero />}
+        </section>
         <main>
-          <section className="hero">
-            {<Hero />}
-          </section>
           <section className="about">
             {<About />}
           </section>
