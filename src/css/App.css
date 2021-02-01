@@ -21,13 +21,23 @@ div.app header {
 }
 
 div.app main {
+  position: relative;
   -ms-flex-preferred-size: 400vh;
       flex-basis: 400vh;
+}
+
+div.app main::before {
+  content: "";
   background-image: url(../img/main_bcg/img05.jpg);
-  background-size: 100vw auto;
+  background-size: cover;
   background-attachment: fixed;
   background-position: center;
   opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 div.app footer {
