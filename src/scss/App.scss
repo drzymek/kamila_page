@@ -12,7 +12,12 @@ div.app {
     }
 
     main {
-        flex-basis: 200vh;
+        flex-basis: 400vh;
+        background-image: url(../img/main_bcg/img05.jpg);
+        background-size: 100vw auto;
+        background-attachment: fixed;
+        background-position: center;
+        opacity: 0.6;
     }
 
     footer {

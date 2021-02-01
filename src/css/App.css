@@ -21,8 +21,13 @@ div.app header {
 }
 
 div.app main {
-  -ms-flex-preferred-size: 200vh;
-      flex-basis: 200vh;
+  -ms-flex-preferred-size: 400vh;
+      flex-basis: 400vh;
+  background-image: url(../img/main_bcg/img05.jpg);
+  background-size: 100vw auto;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.6;
 }
 
 div.app footer {
