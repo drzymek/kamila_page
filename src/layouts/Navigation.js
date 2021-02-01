@@ -1,12 +1,12 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import '../css/Navigation.css';
 
 const menu = [
-    { name: 'home', path: '/', exact: true },
-    { name: 'about', path: 'about' },
-    { name: 'gallery', path: 'gallery' },
-    { name: 'contact', path: 'contact' },
+    { name: 'home' },
+    { name: 'about' },
+    { name: 'gallery' },
+    { name: 'contact' },
 ]
 
 const handleScrollToPage = () => {
@@ -23,7 +23,7 @@ const Navigation = () => {
 
     const list = menu.map(item => (
         <li key={item.name}>
-            <NavLink to={item.path} className={item.className} onClick={handleScrollToPage}>{item.name}</NavLink>
+            <a href={item.className} onClick={handleScrollToPage}>{item.name}</a>
         </li>
     ))
 
