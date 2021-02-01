@@ -28,7 +28,7 @@ div.app main {
 
 div.app main::before {
   content: "";
-  background-image: url(../img/main_bcg/img05.jpg);
+  background-image: url(../img/main_bcg/img01.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
