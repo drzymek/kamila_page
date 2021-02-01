@@ -1,4 +1,46 @@
-.about {
+.aboutSection {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aboutSection .aboutPhoto {
+  width: 50vw;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.aboutSection .aboutPhoto img {
+  width: 50%;
+}
+
+.aboutSection article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50vw;
+  color: white;
+}
+
+.aboutSection article h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.aboutSection article p {
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px;
 }
 /*# sourceMappingURL=About.css.map */
