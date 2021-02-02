@@ -15,9 +15,15 @@ div.app header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   width: 100%;
-  -ms-flex-preferred-size: 20vh;
-      flex-basis: 20vh;
+  -ms-flex-preferred-size: 10vh;
+      flex-basis: 10vh;
 }
 
 div.app main {

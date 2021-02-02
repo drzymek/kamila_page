@@ -1,11 +1,11 @@
 nav {
-    width: 70%;
+    width: 50%;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
 
     ul {
-        height: 20vh;
+        // height: 20vh;
         padding-right: 10%;
         display: flex;
         justify-content: flex-end;
@@ -13,7 +13,7 @@ nav {
         list-style-type: none;
 
         li {
-            margin-bottom: 10px;
+            // margin-bottom: 10px;
             margin-right: 10px;
             color: rgba(0, 0, 0, .7);
             font-size: 6px;

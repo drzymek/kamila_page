@@ -3,12 +3,11 @@ header {
 }
 
 header .logo {
-  width: 260px;
-  margin-left: 10%;
+  width: 100px;
+  margin-left: 5%;
 }
 
 header .logo img {
-  width: 60%;
-  margin-top: 4%;
+  width: 100%;
 }
 /*# sourceMappingURL=Header.css.map */

@@ -7,8 +7,10 @@ div.app {
 
     header {
         display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
         width: 100%;
-        flex-basis: 20vh;
+        flex-basis: 10vh;
     }
 
     main {
