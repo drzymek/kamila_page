@@ -15,7 +15,7 @@ div.app .heroSection {
   height: 100vh;
   width: 100%;
   background-image: url(../img/heroPhotos/img03.jpg);
-  background-position: center;
+  background-position: center 5%;
   background-size: cover;
 }
 
@@ -27,7 +27,7 @@ div.app main {
 
 div.app main::before {
   content: "";
-  background-image: url(../img/main_bcg/img01.jpg);
+  background-image: url(../img/main_bcg/img05.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
