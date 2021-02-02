@@ -11,11 +11,11 @@ const About = () => {
             </aside>
             <article>
                 <h1>Hi, my name is <span className="nameAbout">Kamila</span></h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid deleniti, ratione accusantium perspiciatis ipsum inventore quaerat facere dolorem exercitationem placeat molestias delectus dolores explicabo voluptatum facilis non consectetur officia repellat!</p>
+                <p>I love photography and I try to tell the stories with my photos..., capture moments that are and will be nice to remember after years. It's simple, I record what is the most beautyfull...</p>
                 <div className="social">
-                    <a href="##"><i class="fab fa-facebook-f"></i></a>
-                    <a href="##"><i class="fab fa-pinterest-square"></i></a>
-                    <a href="##"><i class="fab fa-instagram-square"></i></a></div>
+                    <a href="https://www.facebook.com/CircleofLifephotostories" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+                    <a href="##" target="_blank" rel="noopener noreferrer"><i className="fab fa-pinterest-square"></i></a>
+                    <a href="##" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></a></div>
             </article>
         </>
     );

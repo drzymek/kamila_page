@@ -70,13 +70,16 @@
 .aboutSection article p {
   font-size: 8px;
   font-weight: 300;
-  padding: 25px;
-  padding-left: 0;
+  padding-right: 40px;
+  text-align: center;
+  line-height: 1.2rem;
+  word-spacing: .3em;
   width: 80%;
 }
 
 .aboutSection article .social a {
-  margin-right: 10px;
+  margin-right: 15px;
   font-size: 10px;
+  color: #746e6e;
 }
 /*# sourceMappingURL=About.css.map */
