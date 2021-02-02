@@ -26,12 +26,11 @@ nav ul {
 }
 
 nav ul li {
-  margin-right: 10px;
-  color: rgba(0, 0, 0, 0.7);
   font-size: 6px;
   letter-spacing: 2px;
   padding: 0 10px;
   text-decoration: none;
   cursor: pointer;
+  color: #fdfdfd;
 }
 /*# sourceMappingURL=Navigation.css.map */
