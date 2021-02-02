@@ -5,13 +5,13 @@ div.app {
     min-height: 100vh;
     background-color: rgb(253, 253, 253);
 
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        width: 100%;
-        flex-basis: 10vh;
-    }
+   .heroSection {
+       height: 100vh;
+       width: 100%;
+       background-image: url(../img/heroPhotos/img03.jpg);
+       background-position: center;
+       background-size: cover;
+   }
 
     main {
         position: relative;

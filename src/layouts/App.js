@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { ScrollingProvider, Section } from 'react-scroll-section'
 import '../css/App.css';
-import Header from './Header';
 import Hero from './Hero';
 import About from './About';
 import Gallery from './Gallery';
@@ -14,10 +13,7 @@ class App extends Component {
     return (
       <ScrollingProvider>
         <div className="app">
-          <header>
-            {<Header />}
-          </header>
-          <Section id="home" className="hero">
+          <Section id="home" className="heroSection">
             {<Hero />}
           </Section>
           <main>

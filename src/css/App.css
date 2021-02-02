@@ -11,19 +11,12 @@ div.app {
   background-color: #fdfdfd;
 }
 
-div.app header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+div.app .heroSection {
+  height: 100vh;
   width: 100%;
-  -ms-flex-preferred-size: 10vh;
-      flex-basis: 10vh;
+  background-image: url(../img/heroPhotos/img03.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 div.app main {
