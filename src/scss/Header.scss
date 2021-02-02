@@ -1,15 +1,29 @@
-header {
-    border-bottom: 0.2px solid rgba(0, 0, 0, .3);
+// header {
+//     border-bottom: 0.2px solid rgba(0, 0, 0, .3);
 
-    .logo {
-            width: 100px;
-            margin-left: 5%;
+//     .logo {
+//             width: 100px;
+//             margin-left: 5%;
 
-            img {
-                width: 100%;
-                // margin-top: 4%;
-            }
-        }
+//             img {
+//                 width: 100%;
+//                 // margin-top: 4%;
+//             }
+//         }
     
 
+// }
+header {
+    display: flex;
+
+    .logo {
+        width: 50%;
+    }
+    img {
+        margin-left: 12%;
+        margin-top: 10px;
+        width: 50%;
+        opacity: .7;
+    }
 }
+

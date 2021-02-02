@@ -1,13 +1,17 @@
 header {
-  border-bottom: 0.2px solid rgba(0, 0, 0, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 header .logo {
-  width: 100px;
-  margin-left: 5%;
+  width: 50%;
 }
 
-header .logo img {
-  width: 100%;
+header img {
+  margin-left: 12%;
+  margin-top: 10px;
+  width: 50%;
+  opacity: .7;
 }
 /*# sourceMappingURL=Header.css.map */
