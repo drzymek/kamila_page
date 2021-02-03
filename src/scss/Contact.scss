@@ -1,12 +1,89 @@
 .contactSection {
     position: relative;
+    padding: 5%;
+    background-color: rgba(253, 253, 253, 0);
 
-    .contact {
+    .contactContent {
         display: flex;
+
+        .contactImg {
+            position: relative;
+            width: 50%;
+            height: auto;
+            
+            img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 55%;
+            }
+        }
 
         form {
             display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            color: #2c2a2a;
+
+            h1 {
+                margin: 5% 0;
+                font-family: 'Raleway', Helvetica, sans-serif;
+                font-size: 42px;
+            }
+
+            input {
+                width: 75%;
+                height: 30px;
+                margin-bottom: 2%;
+                padding-left: 2%;
+                color: #2c2a2a;
+                background-color:rgba(255, 255, 255, .6);
+                // opacity: .3;
+                // border: 1px solid #fff;
+                border-style: none;
+            }
+
+            input::placeholder {
+                font-size: 18px;
+                color: #2c2a2a;
+                font-family: 'Raleway', Helvetica, sans-serif;
+            }
+
+            input:focus {
+                outline: none;
+            }
+
+            textarea {
+                width: 75%;
+                height: 150px;
+                margin-top: 7%;
+                margin-bottom: 5%;
+                padding: 2% 2%;
+                color: #2c2a2a;
+                background-color:rgba(255, 255, 255, .6);
+                // background-color: transparent;
+                // border: 1px solid black;
+                border-style: none;
+            }
+
+            textarea::placeholder {
+                color: #000;
+                font-family: 'Raleway', Helvetica, sans-serif;
+            }
+
+            textarea:focus {
+                outline: none;
+            }
+
+            button {
+                width: 20%;
+                height: 45px;
+                border: 1px solid #2c2a2a;
+                background-color: transparent;
+            }
         }
     }
 }
