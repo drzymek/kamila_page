@@ -13,17 +13,17 @@ class App extends Component {
     return (
       <ScrollingProvider>
         <div className="app">
-          <Section id="home" className="heroSection">
+          <Section id="home" className="heroSection navScrollToPage">
             {<Hero />}
           </Section>
           <main>
-            <Section id="about" className="aboutSection">
+            <Section id="about" className="aboutSection navScrollToPage">
               {<About />}
             </Section>
-            <Section id="gallery" className="gallerySection">
+            <Section id="gallery" className="gallerySection navScrollToPage">
               {<Gallery />}
             </Section>
-            <Section id="contact" className="contactSection">
+            <Section id="contact" className="contactSection navScrollToPage">
               {<Contact />}
             </Section>
           </main>
