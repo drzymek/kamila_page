@@ -21,8 +21,6 @@ div.app .heroSection {
 
 div.app main {
   position: relative;
-  -ms-flex-preferred-size: 400vh;
-      flex-basis: 400vh;
 }
 
 div.app main::before {
@@ -40,8 +38,6 @@ div.app main::before {
 }
 
 div.app footer {
-  -ms-flex-preferred-size: 10vh;
-      flex-basis: 10vh;
   text-align: center;
   padding: 10px 0;
   border-top: 1px solid black;

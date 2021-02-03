@@ -15,7 +15,7 @@ div.app {
 
     main {
         position: relative;
-        flex-basis: 400vh;
+        // flex-basis: 400vh;
     }
 
     main::before {
@@ -33,7 +33,7 @@ div.app {
     }
 
     footer {
-        flex-basis: 10vh;
+        // flex-basis: 10vh;
         text-align: center;
         padding: 10px 0;
         border-top: 1px solid black;
