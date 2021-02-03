@@ -1,3 +1,5 @@
+/* smartphones ----------------------*/
+/* tablets --------------------------*/
 nav {
   width: 50%;
   display: -webkit-box;
@@ -19,12 +21,23 @@ nav ul {
   list-style-type: none;
 }
 
-nav ul li {
+nav ul li a {
   font-size: 12px;
   letter-spacing: 2px;
   padding: 0 20px;
   text-decoration: none;
+  text-transform: uppercase;
   cursor: pointer;
   color: #fdfdfd;
+}
+
+nav ul li a:hover {
+  color: #a5a5a5;
+}
+
+@media only screen and (max-device-width: 480px) {
+  nav {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Navigation.css.map */
