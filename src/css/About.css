@@ -4,6 +4,7 @@
   display: -ms-flexbox;
   display: flex;
   height: 80vh;
+  margin-bottom: 5%;
   padding-left: 10%;
   background-color: rgba(253, 253, 253, 0.7);
 }
@@ -11,8 +12,8 @@
 .aboutSection .aboutSpan {
   position: absolute;
   top: 30%;
-  left: 1%;
-  font-size: 8px;
+  left: 3%;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   color: #746e6e;
@@ -53,13 +54,14 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 55vw;
-  color: #746e6e;
+  width: 44vw;
+  color: #2c2a2a;
 }
 
 .aboutSection article h1 {
-  font-size: 30px;
+  font-size: 56px;
   font-family: 'Caveat', cursive;
+  margin-bottom: 4%;
 }
 
 .aboutSection article h1 .nameAbout {
@@ -68,18 +70,21 @@
 }
 
 .aboutSection article p {
-  font-size: 8px;
+  font-size: 20px;
   font-weight: 300;
   padding-right: 40px;
   text-align: left;
-  line-height: 1.2rem;
-  word-spacing: .3em;
+  line-height: 1.5rem;
   width: 80%;
+}
+
+.aboutSection article .social {
+  padding-top: 9%;
 }
 
 .aboutSection article .social a {
   margin-right: 15px;
-  font-size: 10px;
+  font-size: 18px;
   color: #746e6e;
 }
 /*# sourceMappingURL=About.css.map */
