@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/Contact.css'
-import img01 from '../img/contact/mainPagePhoto_01.jpg'
+import img01 from '../img/newLogo(3).png'
 
 class Contact extends React.Component {
     state = {
@@ -46,13 +46,13 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div className="contact">
+            <div className="contactContent">
                 <form onSubmit={this.handleSubmit}>
-                    <h1>Say something...</h1>
+                    <h1><strong>Contact</strong> me...</h1>
                     <input type="text" value={this.state.nameValue} onChange={this.handleNameChange} placeholder="name" />
                     <input type="email" value={this.state.emailValue} onChange={this.handleEmailChange} placeholder="@email" />
                     <input type="phone" value={this.state.phoneValue} onChange={this.handlePhoneChange} placeholder="phone" />
-                    <textarea value={this.state.messageValue} onChange={this.handleMessageChange} placeholder="say something..."></textarea>
+                    <textarea value={this.state.messageValue} onChange={this.handleMessageChange} placeholder="message..."></textarea>
                     <button type="submit">Send</button>
                 </form>
                 <div className="contactImg">
