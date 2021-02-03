@@ -1,8 +1,9 @@
 import React from 'react';
+import '../css/Footer.css'
 
 const Footer = () => {
     return (
-        <div>Footer</div>
+        <div>Copyright <small>&copy;</small> 2021, Kamila Drzymała</div>
     );
 }
 
