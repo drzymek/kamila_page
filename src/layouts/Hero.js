@@ -1,5 +1,6 @@
 import React from 'react';
-import '../css/Hero.css'
+import '../css/Hero.css';
+import BurgerMenu from './BurgerMenu';
 import Header from './Header';
 
 // import img1 from '../img/heroPhotos/img01.jpg';
@@ -19,6 +20,7 @@ const Hero = () => {
     return (
         <div className="hero">
             {<Header />}
+            {<BurgerMenu />}
         </div>
     );
 }
