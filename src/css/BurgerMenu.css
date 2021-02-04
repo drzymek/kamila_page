@@ -1,105 +1,52 @@
-/* smartphones ----------------------*/
-/* tablets --------------------------*/
-/* Position and sizing of burger button */
-.bm-burger-button {
-  position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 60px;
+/* small screens ----------------------*/
+/* medium screens --------------------------*/
+.arrow {
+  display: none;
 }
 
-#react-burger-menu-btn:focus {
-  outline: none;
+.mobileNav {
+  display: none;
 }
 
-/* Color/shape of burger icon bars */
-.bm-burger-bars {
-  background: #fdfdfd;
-}
-
-/* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-  background: #373a47;
-}
-
-/* Position and sizing of clickable cross button */
-.bm-cross-button {
-  height: 24px;
-  width: 24px;
-}
-
-/* Color/shape of close button cross */
-.bm-cross {
-  background: #bdc3c7;
-}
-
-/*
-  Sidebar wrapper styles
-  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-  */
-.bm-menu-wrap {
-  position: fixed;
-  height: 50%;
-  width: 46%;
-}
-
-/* General sidebar styles */
-.bm-menu {
-  background: #373a47;
-  opacity: .7;
-  padding: 2.5em 1.5em 0;
-}
-
-/* Morph shape necessary with bubble or elastic */
-.bm-morph-shape {
-  fill: #373a47;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
-}
-
-/* Individual item */
-.bm-item {
-  display: inline-block;
-}
-
-.bm-item a {
-  color: white;
-  text-transform: uppercase;
-  font-size: 12px;
-}
-
-/* Styling of overlay */
-.bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.heroSection .hero nav.bm-item-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-@media only screen and (min-device-width: 481px) {
-  .bm-burger-button {
-    display: none;
+/* styles for mobile*/
+@media only screen and (max-device-width: 480px) {
+  .arrow {
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
   }
-  .bm-menu {
-    display: none;
+  .arrow.on {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
   }
-  .bm-cross-button {
-    display: none;
+  .mobileNav {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: -100px;
+    width: 70%;
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+  }
+  .mobileNav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .mobileNav.on {
+    top: 0;
   }
 }
 /*# sourceMappingURL=BurgerMenu.css.map */
