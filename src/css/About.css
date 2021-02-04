@@ -1,3 +1,5 @@
+/* smartphones ----------------------*/
+/* tablets --------------------------*/
 .aboutSection {
   position: relative;
   display: -webkit-box;
@@ -86,5 +88,44 @@
   margin-right: 15px;
   font-size: 18px;
   color: #746e6e;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .aboutSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+  }
+  .aboutSection article {
+    width: 65vw;
+  }
+  .aboutSection article h1 {
+    font-size: 50px;
+  }
+  .aboutSection article p {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+  .aboutSection {
+    height: 95vh;
+  }
+  .aboutSection article {
+    width: 65vw;
+  }
+  .aboutSection article h1 {
+    font-size: 45px;
+  }
+  .aboutSection article p {
+    font-size: 12px;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=About.css.map */

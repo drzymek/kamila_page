@@ -1,3 +1,5 @@
+@import 'Breakpoints';
+
 .aboutSection {
     position: relative;
     display: flex;
@@ -75,6 +77,46 @@
                 margin-right: 15px;
                 font-size: 18px;
                 color: #746e6e;
+            }
+        }
+    }
+}
+
+@include for-smallScreens {
+    .aboutSection {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+
+        article {
+            width: 65vw;
+
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 12px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@include for-mediumScreens {
+    .aboutSection {
+        height: 95vh;
+        
+        article {
+            width: 65vw;
+
+            h1 {
+                font-size: 45px;
+            }
+
+            p {
+                font-size: 12px;
+                width: 100%;
             }
         }
     }
