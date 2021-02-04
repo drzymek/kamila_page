@@ -36,7 +36,7 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-device-width: 480px) {
-  nav {
+  .desktopNav {
     display: none;
   }
 }

@@ -24,7 +24,7 @@ const Navigation = () => {
 
     return (
 
-        <nav>
+        <nav className="desktopNav">
             <ul>
                 {menu}
             </ul>

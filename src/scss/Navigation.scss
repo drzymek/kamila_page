@@ -33,7 +33,7 @@ nav {
 }
 
 @include for-phone {
-    nav {
+    .desktopNav {
         display: none;
     }
 }
