@@ -3,18 +3,26 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
-  width: 30px;
-  height: 25px;
-  left: 20px;
-  top: 15px;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 60px;
+}
+
+#react-burger-menu-btn:focus {
+  outline: none;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #666;
+  background: #fdfdfd;
 }
 
 /* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #373a47;
+}
+
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
   height: 24px;
@@ -23,7 +31,7 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #fff;
+  background: #bdc3c7;
 }
 
 /*
@@ -32,14 +40,15 @@
   */
 .bm-menu-wrap {
   position: fixed;
-  height: 100%;
+  height: 50%;
+  width: 46%;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background: black;
+  background: #373a47;
+  opacity: .7;
   padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -56,8 +65,12 @@
 /* Individual item */
 .bm-item {
   display: inline-block;
-  padding-bottom: 15%;
-  outline: none;
+}
+
+.bm-item a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
 }
 
 /* Styling of overlay */
@@ -65,10 +78,17 @@
   background: rgba(0, 0, 0, 0.3);
 }
 
-.menu-item {
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
+.heroSection .hero nav.bm-item-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 @media only screen and (min-device-width: 481px) {
