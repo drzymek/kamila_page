@@ -7,7 +7,7 @@ import logo from '../img/newLogo(3).png';
 const Header = () => {
     return (
         <>
-            <header>
+            <header className="desktopHeader">
                 <div className="logo">
                     <img src={logo} alt="circle of life logo"></img>
                 </div>
