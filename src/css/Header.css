@@ -1,3 +1,5 @@
+/* small screens ----------------------*/
+/* medium screens --------------------------*/
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,5 +15,20 @@ header img {
   margin-top: 10px;
   width: 40%;
   opacity: .7;
+}
+
+@media only screen and (max-device-width: 480px) {
+  header.desktopHeader {
+    width: 30%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header.desktopHeader .logo {
+    width: 70%;
+  }
+  header.desktopHeader .logo img {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=Header.css.map */

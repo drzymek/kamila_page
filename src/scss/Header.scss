@@ -1,18 +1,5 @@
-// header {
-//     border-bottom: 0.2px solid rgba(0, 0, 0, .3);
+@import 'Breakpoints';
 
-//     .logo {
-//             width: 100px;
-//             margin-left: 5%;
-
-//             img {
-//                 width: 100%;
-//                 // margin-top: 4%;
-//             }
-//         }
-    
-
-// }
 header {
     display: flex;
 
@@ -27,3 +14,18 @@ header {
     }
 }
 
+@include for-smallScreens {
+    
+    header.desktopHeader {
+        width: 30%;
+        justify-content: center;
+
+        .logo {
+            width: 70%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
