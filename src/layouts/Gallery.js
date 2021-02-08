@@ -6,13 +6,14 @@ import img02 from '../img/heroPhotos/img02.jpg'
 import img03 from '../img/heroPhotos/img03.jpg'
 import img04 from '../img/heroPhotos/img04.jpg'
 import img05 from '../img/heroPhotos/img05.jpg'
+import img06 from '../img/heroPhotos/img06.jpg'
 
 const Gallery = () => {
     return (
         <MDBContainer>
             <MDBCarousel
                 activeItem={1}
-                length={5}
+                length={6}
                 showControls={true}
                 showIndicators={false}
                 className="z-depth-1"
@@ -61,6 +62,15 @@ const Gallery = () => {
                                 className="d-block w-100"
                                 src={img05}
                                 alt="Fifth slide"
+                            />
+                        </MDBView>
+                    </MDBCarouselItem>
+                    <MDBCarouselItem itemId="6">
+                        <MDBView>
+                            <img
+                                className="d-block w-100"
+                                src={img06}
+                                alt="Sixth slide"
                             />
                         </MDBView>
                     </MDBCarouselItem>
