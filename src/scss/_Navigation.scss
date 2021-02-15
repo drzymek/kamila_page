@@ -1,4 +1,4 @@
-@import 'Breakpoints';
+// @import 'Breakpoints';
 
 nav {
     width: 50%;
@@ -23,16 +23,16 @@ nav {
                 text-transform: uppercase;
                 cursor: pointer;
                 color: rgb(253, 253, 253);
-            }
 
-            a:hover {
-                color: rgb(165, 165, 165);
+                &:hover {
+                    color: rgb(165, 165, 165);
+                }
             }
         }
     }
 }
 
-@include for-phone {
+@include for-smallScreens {
     .desktopNav {
         display: none;
     }
