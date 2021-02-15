@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Hero.css';
+import '../css/styles.css';
 import BurgerMenu from './BurgerMenu';
 import Header from './Header';
 
