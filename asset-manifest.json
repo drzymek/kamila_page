@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/kamila_page/static/css/main.983f0836.chunk.css",
-    "main.js": "/kamila_page/static/js/main.729691d3.chunk.js",
-    "main.js.map": "/kamila_page/static/js/main.729691d3.chunk.js.map",
+    "main.css": "/kamila_page/static/css/main.4da3b7bd.chunk.css",
+    "main.js": "/kamila_page/static/js/main.3284947d.chunk.js",
+    "main.js.map": "/kamila_page/static/js/main.3284947d.chunk.js.map",
     "runtime-main.js": "/kamila_page/static/js/runtime-main.8d269468.js",
     "runtime-main.js.map": "/kamila_page/static/js/runtime-main.8d269468.js.map",
     "static/css/2.5009c1eb.chunk.css": "/kamila_page/static/css/2.5009c1eb.chunk.css",
-    "static/js/2.b060b35f.chunk.js": "/kamila_page/static/js/2.b060b35f.chunk.js",
-    "static/js/2.b060b35f.chunk.js.map": "/kamila_page/static/js/2.b060b35f.chunk.js.map",
+    "static/js/2.d9fed373.chunk.js": "/kamila_page/static/js/2.d9fed373.chunk.js",
+    "static/js/2.d9fed373.chunk.js.map": "/kamila_page/static/js/2.d9fed373.chunk.js.map",
     "index.html": "/kamila_page/index.html",
     "static/css/2.5009c1eb.chunk.css.map": "/kamila_page/static/css/2.5009c1eb.chunk.css.map",
-    "static/css/main.983f0836.chunk.css.map": "/kamila_page/static/css/main.983f0836.chunk.css.map",
-    "static/js/2.b060b35f.chunk.js.LICENSE.txt": "/kamila_page/static/js/2.b060b35f.chunk.js.LICENSE.txt",
+    "static/css/main.4da3b7bd.chunk.css.map": "/kamila_page/static/css/main.4da3b7bd.chunk.css.map",
+    "static/js/2.d9fed373.chunk.js.LICENSE.txt": "/kamila_page/static/js/2.d9fed373.chunk.js.LICENSE.txt",
     "static/media/aboutPhoto.9b6f0673.jpg": "/kamila_page/static/media/aboutPhoto.9b6f0673.jpg",
     "static/media/mdb.css": "/kamila_page/static/media/arrow_right.0897f985.svg",
     "static/media/all.min.css": "/kamila_page/static/media/fa-solid-900.f4f93856.woff",
     "static/media/img01.a762591e.jpg": "/kamila_page/static/media/img01.a762591e.jpg",
     "static/media/img02.b6fda1da.jpg": "/kamila_page/static/media/img02.b6fda1da.jpg",
-    "static/media/App.css": "/kamila_page/static/media/img05.0ef05e20.jpg",
+    "static/media/styles.css": "/kamila_page/static/media/img05.0ef05e20.jpg",
     "static/media/img04.d00b311a.jpg": "/kamila_page/static/media/img04.d00b311a.jpg",
+    "static/media/img06.bffb4781.jpg": "/kamila_page/static/media/img06.bffb4781.jpg",
     "static/media/newLogo(3).628df8f1.png": "/kamila_page/static/media/newLogo(3).628df8f1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8d269468.js",
     "static/css/2.5009c1eb.chunk.css",
-    "static/js/2.b060b35f.chunk.js",
-    "static/css/main.983f0836.chunk.css",
-    "static/js/main.729691d3.chunk.js"
+    "static/js/2.d9fed373.chunk.js",
+    "static/css/main.4da3b7bd.chunk.css",
+    "static/js/main.3284947d.chunk.js"
   ]
 }
