@@ -1,0 +1,46 @@
+/* small screens ----------------------*/
+/* medium screens --------------------------*/
+nav {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav ul {
+  padding-right: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #fdfdfd;
+}
+
+nav ul li a:hover {
+  color: #a5a5a5;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .desktopNav {
+    display: none;
+  }
+}
+
+/* small screens ----------------------*/
+/* medium screens --------------------------*/
+/*# sourceMappingURL=styles.css.map */
