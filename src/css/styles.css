@@ -1,5 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Raleway', sans-serif;
+  scroll-behavior: smooth;
+}
+
+div.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fdfdfd;
+}
+
+div.app .heroSection {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/heroPhotos/img03.jpg);
+  background-position: center 5%;
+  background-size: cover;
+}
+
+div.app main {
+  position: relative;
+}
+
+div.app main::before {
+  content: "";
+  background-image: url(../img/main_bcg/img05.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+div.app footer {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid black;
+}
+
 /* small screens ----------------------*/
 /* medium screens --------------------------*/
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .logo {
+  width: 50%;
+}
+
+header img {
+  margin-left: 12%;
+  margin-top: 10px;
+  width: 40%;
+  opacity: .7;
+}
+
+@media only screen and (max-device-width: 480px) {
+  header.desktopHeader {
+    width: 30%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header.desktopHeader .logo {
+    width: 70%;
+  }
+  header.desktopHeader .logo img {
+    width: 100%;
+  }
+}
+
 nav {
   width: 50%;
   display: -webkit-box;
@@ -41,6 +144,419 @@ nav ul li a:hover {
   }
 }
 
+.arrow {
+  display: none;
+}
+
+.mobileNav {
+  display: none;
+}
+
+/* styles for mobile*/
+@media only screen and (max-device-width: 480px) {
+  .arrow {
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+  }
+  .arrow.on {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .mobileNav {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: -100px;
+    width: 70%;
+    -webkit-transition: .3s linear;
+    transition: .3s linear;
+  }
+  .mobileNav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .mobileNav.on {
+    top: 0;
+  }
+}
+
+.aboutSection {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 5%;
+  padding-left: 10%;
+  background-color: rgba(253, 253, 253, 0.7);
+}
+
+.aboutSection .aboutSpan {
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #746e6e;
+  line-height: 1.2em;
+}
+
+.aboutSection .aboutSpan::after {
+  content: "";
+  display: inline-block;
+  margin-left: 2px;
+  width: .5px;
+  height: 80px;
+  background-color: #746e6e;
+}
+
+.aboutSection .aboutPhoto {
+  width: 35vw;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.aboutSection .aboutPhoto img {
+  width: 50%;
+  border: 2px solid #fdfdfd;
+}
+
+.aboutSection article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44vw;
+  color: #2c2a2a;
+}
+
+.aboutSection article h1 {
+  font-size: 56px;
+  font-family: 'Caveat', cursive;
+  margin-bottom: 4%;
+}
+
+.aboutSection article h1 .nameAbout {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 5px;
+}
+
+.aboutSection article p {
+  font-size: 20px;
+  font-weight: 300;
+  padding-right: 40px;
+  text-align: left;
+  line-height: 1.5rem;
+  width: 80%;
+}
+
+.aboutSection article .social {
+  padding-top: 9%;
+}
+
+.aboutSection article .social a {
+  margin-right: 15px;
+  font-size: 18px;
+  color: #746e6e;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .aboutSection {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+  }
+  .aboutSection article {
+    width: 65vw;
+  }
+  .aboutSection article h1 {
+    font-size: 50px;
+  }
+  .aboutSection article p {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+  .aboutSection {
+    height: 95vh;
+  }
+  .aboutSection article {
+    width: 65vw;
+  }
+  .aboutSection article h1 {
+    font-size: 45px;
+  }
+  .aboutSection article p {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+
+.gallerySection {
+  position: relative;
+}
+
 /* small screens ----------------------*/
 /* medium screens --------------------------*/
+.contactSection {
+  position: relative;
+  padding: 5%;
+  background-color: rgba(253, 253, 253, 0);
+}
+
+.contactSection .contactContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contactSection .contactContent .contactImg {
+  position: relative;
+  width: 50%;
+  height: auto;
+}
+
+.contactSection .contactContent .contactImg img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 55%;
+}
+
+.contactSection .contactContent form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  color: #2c2a2a;
+}
+
+.contactSection .contactContent form h1 {
+  margin: 5% 0;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 42px;
+}
+
+.contactSection .contactContent form input {
+  width: 75%;
+  height: 30px;
+  margin-bottom: 2%;
+  padding-left: 2%;
+  color: #2c2a2a;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-style: none;
+}
+
+.contactSection .contactContent form input::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #2c2a2a;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.contactSection .contactContent form input:-ms-input-placeholder {
+  font-size: 18px;
+  color: #2c2a2a;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.contactSection .contactContent form input::-ms-input-placeholder {
+  font-size: 18px;
+  color: #2c2a2a;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.contactSection .contactContent form input::placeholder {
+  font-size: 18px;
+  color: #2c2a2a;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.contactSection .contactContent form input:focus {
+  outline: none;
+}
+
+.contactSection .contactContent form textarea {
+  width: 75%;
+  height: 150px;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  padding: 2% 2%;
+  color: #2c2a2a;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-style: none;
+}
+
+.contactSection .contactContent form textarea::-webkit-input-placeholder {
+  color: #000;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.contactSection .contactContent form textarea:-ms-input-placeholder {
+  color: #000;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.contactSection .contactContent form textarea::-ms-input-placeholder {
+  color: #000;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.contactSection .contactContent form textarea::placeholder {
+  color: #000;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.contactSection .contactContent form textarea:focus {
+  outline: none;
+}
+
+.contactSection .contactContent form button {
+  width: 20%;
+  height: 45px;
+  border: 1px solid #2c2a2a;
+  background-color: transparent;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .contactSection .contactContent form h1 {
+    font-size: 24px;
+  }
+  .contactSection .contactContent form input {
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .contactSection .contactContent form input::-webkit-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form input:-ms-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form input::-ms-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form input::placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form textarea {
+    font-size: 10px;
+    height: 60px;
+  }
+  .contactSection .contactContent form textarea::-webkit-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form textarea:-ms-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form textarea::-ms-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form textarea::placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form button {
+    width: 45%;
+    height: 25px;
+    font-size: 12px;
+  }
+  .contactSection .contactContent .contactImg img {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1023px) {
+  .contactSection .contactContent form h1 {
+    font-size: 24px;
+  }
+  .contactSection .contactContent form input {
+    height: 20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .contactSection .contactContent form input::-webkit-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form input:-ms-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form input::-ms-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form input::placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form textarea {
+    font-size: 10px;
+    height: 60px;
+  }
+  .contactSection .contactContent form textarea::-webkit-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form textarea:-ms-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form textarea::-ms-input-placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form textarea::placeholder {
+    font-size: 8px;
+  }
+  .contactSection .contactContent form button {
+    width: 35%;
+    height: 25px;
+    font-size: 12px;
+  }
+  .contactSection .contactContent .contactImg img {
+    width: 90%;
+  }
+}
+
+footer {
+  background-color: #000;
+  color: rgba(253, 253, 253, 0.7);
+  font-size: 12px;
+}
 /*# sourceMappingURL=styles.css.map */
