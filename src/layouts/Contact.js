@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Contact.css'
+import '../css/styles.css'
 import img01 from '../img/newLogo(3).png'
 
 class Contact extends React.Component {
