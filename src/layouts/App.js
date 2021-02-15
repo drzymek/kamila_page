@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ScrollingProvider, Section } from 'react-scroll-section'
-import '../css/App.css';
+import '../css/styles.css';
 import Hero from './Hero';
 import About from './About';
 import Gallery from './Gallery';
