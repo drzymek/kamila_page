@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Navigation.css';
+import '../css/styles.css';
 
 const menuList = [
     { name: "home", className: "menu-item", id: "#home" },
