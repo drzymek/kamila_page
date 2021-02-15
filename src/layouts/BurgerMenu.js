@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/BurgerMenu.css';
+import '../css/styles.css';
 
 const menuList = [
     { name: "home", className: "menu-item", id: "#home" },
