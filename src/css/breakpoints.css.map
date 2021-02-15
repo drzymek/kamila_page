@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,yCAAyC;AAQzC,8CAA8C",
-    "sources": [
-        "../scss/Breakpoints.scss"
-    ],
-    "names": [],
-    "file": "Breakpoints.css"
-}
